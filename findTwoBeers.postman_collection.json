@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "e9aa29c2-2388-4801-8919-9db07cc78024",
+		"name": "findTwoBeers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "findTwoBeers POST request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"beer\": [0, 10, 20, 30, 40, 50],\r\n  \"target\": 50\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://vhzq5uqwmk.execute-api.sa-east-1.amazonaws.com/findTwoBeers/",
+					"protocol": "https",
+					"host": [
+						"vhzq5uqwmk",
+						"execute-api",
+						"sa-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"findTwoBeers",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
